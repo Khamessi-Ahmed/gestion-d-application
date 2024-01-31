@@ -1,0 +1,290 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "wassim",
+      "password": "bejawi",
+      "role": "candidat",
+      "formations": [
+        "SecureTransfer",
+        "SecureTransfer"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "brahim",
+      "password": "00000001",
+      "role": "formateur",
+      "formations": []
+    },
+    {
+      "id": 3,
+      "username": "ahmed",
+      "password": "khammassi",
+      "role": "admin",
+      "formations": []
+    },
+    {
+      "username": "ala",
+      "password": "frfr",
+      "role": "candidat",
+      "formations": [],
+      "id": 4
+    },
+    {
+      "username": "aziz",
+      "password": "azerty",
+      "role": "candidat",
+      "formations": [
+        "CodeCloak",
+        "PrivateAlbum"
+      ],
+      "id": 5
+    },
+    {
+      "username": "osama",
+      "password": "baw123",
+      "role": "candidat",
+      "formations": [
+        "PrivateAlbum",
+        "PrivateAlbum"
+      ],
+      "id": 6
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "titre": "SecureTransfer",
+      "description": "SecureTransfer offre une solution sûre et fiable pour le transfert de fichiers sensibles. En utilisant des techniques avancées de stéganographie, cette application permet le transfert de données confidentielles à travers des canaux sécurisés, dissimulées au sein de fichiers multimédias tels que des images, des vidéos ou des fichiers audio",
+      "horaire": "Flexible schedule",
+      "programme": "Hands-on projects, coding exercises, and real-world applications.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "web development",
+        "coding",
+        "programming"
+      ],
+      "categorie": "Technology",
+      "price": 199.99,
+      "image": "https://picsum.photos/300/?random=1"
+    },
+    {
+      "id": 2,
+      "titre": "CodeCloak",
+      "description": "CodeCloak est une application de stéganographie conçue pour les développeurs. Elle vous permet d'intégrer des messages cryptés dans le code source de vos projets, offrant une méthode discrète pour la communication sécurisée au sein des équipes de développement et la protection des informations sensibles du projet.",
+      "charge": "35 hours",
+      "horaire": "Weekdays evenings",
+      "programme": "Data visualization, statistical analysis, and machine learning algorithms.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "data science",
+        "machine learning",
+        "analytics"
+      ],
+      "categorie": "Technology",
+      "price": 249.99,
+      "image": "https://picsum.photos/300/?random=2"
+    },
+    {
+      "id": 3,
+      "titre": "PrivateAlbum",
+      "description": " PrivateAlbum propose une solution innovante pour protéger vos photos personnelles. En utilisant des algorithmes de stéganographie, cette application vous permet de dissimuler des images confidentielles au sein de votre galerie photo, préservant ainsi votre vie privée même en cas de partage de votre téléphone.",
+      "charge": "30 hours",
+      "horaire": "Weekends",
+      "programme": "SEO optimization, social media campaigns, and analytics tools.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "digital marketing",
+        "SEO",
+        "social media"
+      ],
+      "categorie": "Marketing",
+      "price": 149.99,
+      "image": "https://picsum.photos/300/?random=3"
+    },
+    {
+      "id": 4,
+      "titre": "HiddenVault",
+      "description": "HiddenVault est une application de stéganographie pour la création de coffres-forts numériques cachés au sein de votre système de fichiers. Stockez en toute sécurité des documents, des images ou d'autres fichiers sensibles, dissimulés au sein de votre structure de dossiers existante, avec un accès sécurisé par mot de passe.",
+      "charge": "25 hours",
+      "horaire": "Evenings",
+      "programme": "Practical design projects, color theory, and typography basics.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "graphic design",
+        "Adobe Photoshop",
+        "Illustrator"
+      ],
+      "categorie": "Design",
+      "price": 129.99,
+      "image": "https://picsum.photos/300/?random=4"
+    },
+    {
+      "id": 5,
+      "titre": "InvisibleMessages",
+      "description": "InvisibleMessages offre une méthode discrète pour la communication sécurisée par e-mail. En utilisant la stéganographie texte, cette application vous permet d'envoyer des e-mails avec des messages cryptés intégrés, assurant la confidentialité de vos communications professionnelles et personnelles.",
+      "charge": "20 hours",
+      "horaire": "Saturdays",
+      "programme": "Budgeting exercises, investment simulations, and retirement planning.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "financial planning",
+        "budgeting",
+        "investment"
+      ],
+      "categorie": "Finance",
+      "price": 179.99,
+      "image": "https://picsum.photos/300/?random=5"
+    },
+    {
+      "id": 6,
+      "titre": "HiddenTracks",
+      "description": "HiddenTracks est une application de stéganographie audio spécialement conçue pour les musiciens et les producteurs. Elle permet d'intégrer des messages ou des informations de copyright sécurisées au sein de pistes audio, offrant une protection supplémentaire pour les créations musicales originales.",
+      "charge": "15 hours",
+      "horaire": "Weekdays mornings",
+      "programme": "Hands-on photography sessions, photo editing basics, and portfolio building.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "photography",
+        "camera basics",
+        "composition"
+      ],
+      "categorie": "Art",
+      "price": 99.99,
+      "image": "https://picsum.photos/300/?random=6"
+    },
+    {
+      "id": 7,
+      "titre": "SecretMap",
+      "description": "SecretMap réinvente la stéganographie géospatiale. L'application vous permet de dissimuler des informations dans des cartes et des images satellites. Idéal pour les professionnels de la géolocalisation et les amateurs de géocaching, SecretMap offre une nouvelle dimension à la sécurité des données liées à la géographie.",
+      "charge": "18 hours",
+      "horaire": "Flexible schedule",
+      "programme": "Case studies, role-playing exercises, and leadership development plans.",
+      "niveauDifficulte": "Intermediate",
+      "categorie": "Business",
+      "price": 159.99,
+      "image": "https://picsum.photos/300/?random=7"
+    },
+    {
+      "id": 8,
+      "titre": "SecureSocial",
+      "description": "SecureSocial est une application de stéganographie dédiée aux médias sociaux. Protégez votre vie privée en cachant des messages sécurisés au sein de vos images et publications. Avec SecureSocial, vous avez le contrôle total sur les informations que vous partagez publiquement tout en préservant la confidentialité.",
+      "charge": "50 hours",
+      "horaire": "Daily sessions",
+      "programme": "Interactive lessons, language games, and cultural immersion activities.",
+      "niveauDifficulte": "Intermediate",
+      "categorie": "Education",
+      "price": 199.99,
+      "image": "https://picsum.photos/300/?random=8"
+    },
+    {
+      "id": 9,
+      "titre": "DataBlend",
+      "description": " DataBlend est une application de stéganographie multimédia qui fusionne des données sensibles au sein de différents types de médias. Que ce soit des images, des vidéos ou des fichiers audio, DataBlend offre une solution tout-en-un pour la dissimulation de données, adaptée à une variété de scénarios.",
+      "charge": "40 hours",
+      "horaire": "Evenings",
+      "programme": "Ethical hacking, network security, and threat detection.",
+      "niveauDifficulte": "Advanced",
+      "categorie": "Technology",
+      "price": 299.99,
+      "image": "https://picsum.photos/300/?random=9"
+    },
+    {
+      "id": 10,
+      "titre": "TextGuardian",
+      "description": "TextGuardian est une application de stéganographie axée sur la protection des communications écrites. Elle vous permet de cacher des messages confidentiels dans des documents texte, des e-mails ou des messages instantanés, offrant ainsi une communication sécurisée pour les entreprises et les particuliers..",
+      "charge": "25 hours",
+      "horaire": "Weekends",
+      "programme": "Yoga sessions, guided meditations, and mindfulness workshops.",
+      "niveauDifficulte": "Beginner",
+      "categorie": "Health",
+      "price": 149.99,
+      "image": "https://picsum.photos/300/?random=10"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "formation_id": 1,
+      "start_date": "2023-01-10",
+      "end_date": "2023-02-10",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        1
+      ],
+      "registerCandidat": 4
+    },
+    {
+      "id": 2,
+      "formation_id": 2,
+      "start_date": "2023-02-15",
+      "end_date": "2023-03-15",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        2
+      ],
+      "registerCandidat": 6
+    },
+    {
+      "id": 3,
+      "formation_id": 3,
+      "start_date": "2023-03-20",
+      "end_date": "2023-04-20",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "registerCandidat": 29
+    },
+    {
+      "id": 4,
+      "formation_id": 4,
+      "start_date": "2023-04-01",
+      "end_date": "2023-05-01",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        4
+      ],
+      "registerCandidat": 4
+    },
+    {
+      "id": 5,
+      "formation_id": 5,
+      "start_date": "2023-05-15",
+      "end_date": "2023-06-15",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        5
+      ],
+      "registerCandidat": 2
+    },
+    {
+      "id": 6,
+      "formation_id": 6,
+      "start_date": "2023-07-01",
+      "end_date": "2023-08-01",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        6
+      ],
+      "registerCandidat": 3
+    }
+  ]
+}
